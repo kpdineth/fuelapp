@@ -80,9 +80,6 @@ def sort_fun(item):
     return item['Price']
 
 
-
-
-
 def main_fun(product_id, region_name, date):
 
     sorted_l1 = sorted(Product_Type(product_id,region_name,date), key=sort_fun)
